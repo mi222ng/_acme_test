@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in - Acme</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/signin.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js" integrity="sha512-naukR7I+Nk6gp7p5TMA4ycgfxaZBJ7MO5iC3Fp6ySQyKFHOGfpkSZkYVWV5R7u7cfAicxanwYQ5D1e17EfJcMA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+</head>
+<body> 
+    <!-- 헤더 -->
+    <header>
+        <div class="container">            
+            <h1 class="logo"><a href="index.html">acme</a></h1>
+        </div>
+    </header>  
+    <!-- //헤더 -->      
+    <main class="banner content-pd">
+        <h2 class="banner_tt">Sign in</h2>
+
+        <form action="#" method="post">
+            <input type="hidden" name="location" value="sign inform">
+            <p class="field">
+                <label for="email" class="hidden">email</label>
+                <i class="fa-regular fa-envelope"></i>
+                <input type="email" name="useremail" id="email" placeholder="email" required autofocus>
+            </p>
+            <p class="field">
+                <label for="password" class="hidden">password</label>
+                <i class="fa-solid fa-lock"></i>
+                <input type="password" name="userpw" id="password" placeholder="password" required>
+            </p>
+            <p class="field button">
+                <input type="submit" value="sign in">
+                <!-- <button>sign in</button> -->
+            </p>            
+        </form>
+        <a href="" class="link">I forgot my password</a>
+
+    </main>
+    <footer>
+        <div class="cta content-pd">
+            <h2 class="content_tt">Create your free account.</h2>
+            <p class="content_desc">No hidden fees, no credit card required.</p>
+            <a href="signup.html" class="btn big highlight_bg">Sign up</a>
+        </div>       
+    </footer>
+</body>
+</html>

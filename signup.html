@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up - Acme</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/signin.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js" integrity="sha512-naukR7I+Nk6gp7p5TMA4ycgfxaZBJ7MO5iC3Fp6ySQyKFHOGfpkSZkYVWV5R7u7cfAicxanwYQ5D1e17EfJcMA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+</head>
+<body> 
+    <!-- 헤더 -->
+    <header>
+        <div class="container">            
+            <h1 class="logo"><a href="index.html">acme</a></h1>
+        </div>
+    </header>  
+    <!-- //헤더 -->      
+    <main class="banner content-pd">
+        <h2 class="banner_tt">Sign up</h2>
+
+        <form action="#" method="post">
+            <input type="hidden" name="location" value="sign up form">
+            <p class="field">
+                <label for="name" class="hidden">name</label>
+                <i class="fa-solid fa-user"></i>
+                <input type="text" name="username" id="name" placeholder="Your name" required autofocus>
+            </p>
+            <p class="field">
+                <label for="email" class="hidden">email</label>
+                <i class="fa-regular fa-envelope"></i>
+                <input type="email" name="useremail" id="email" placeholder="Your email" required>
+            </p>
+            <p class="field">
+                <label for="password" class="hidden">password conform</label>
+                <i class="fa-solid fa-lock"></i>
+                <input type="password" name="userpw" id="password" required placeholder="confirm password">
+            </p>
+            <p class="field">
+                <label for="passwd_cf" class="hidden">password</label>
+                <i class="fa-solid fa-lock"></i>
+                <input type="password" id="passwd_cf" required>
+            </p>
+            <p class="field button">
+                <input type="submit" value="create account">
+                <!-- <button>sign in</button> -->
+            </p>
+            <div class="feedback">
+                <p>Oops, it seems you haven't entered your name yet.</p>
+                <p>This is required.</p>
+            </div>            
+        </form>
+    </main>
+    <!-- <div class="box"></div> -->
+    <footer class="content-pd txt-center">
+        <a href="signin.html" class="link">Already have an account? Sign In</a>     
+    </footer>    
+</body>
+</html>

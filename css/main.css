@@ -1,0 +1,62 @@
+.banner h2{
+    margin-bottom: 27px;
+}
+.banner h3{
+    margin-bottom: 54px;
+    color: #fff;
+}
+.banner img{
+    display: block;
+    margin:44px auto 0;
+}
+/* ------------------ FEATURE ------------------ */
+.feature li{
+    width: 408px;
+    float: left;
+    margin-right: 24px;
+    text-align: center;
+}
+.feature li:last-child{
+    margin-right: 0;
+}
+.feature li .icon{
+    width: 108px;
+    height:108px;
+    border-radius:50%;
+    border:1px solid #439ccf;
+    display: inline-block;
+    box-sizing: border-box;
+    line-height: 106px;
+    font-size: 32px;
+    color: #439ccf;
+}
+.feature li h3{
+    font-size: 24px;
+    line-height: 27px;
+    margin:27px 0;
+}
+.feature li p{
+    line-height: 27px;
+}
+/* ----------------- testimonial -------------- */
+.testimonial .slide_wrapper{
+    height: 162px;
+}
+.testimonial blockquote{
+    width: 840px;
+    margin:0 auto;
+    font-size: 36px;
+    color: #489dcd;
+    font-weight: 300;
+    font-style:italic;
+    text-align: center;
+}
+.testimonial blockquote span{
+    font-size: 16px;
+    font-style: normal;
+    text-transform: uppercase;
+    display: inline-block;
+    line-height: 27px;
+    margin-top: 58px;
+}
+
